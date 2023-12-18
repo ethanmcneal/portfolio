@@ -7,7 +7,7 @@
   align-items: center;
   min-height: 20vh;
   background-color: #0F172A;
-  color: white
+  color: #f9f9f9
 }
 
 .content {
@@ -16,6 +16,19 @@
   margin-top: 2rem;
   justify-content: space-between;
 }
+.code {
+  font-size: 1.7rem;
+  font-family:
+    Menlo,
+    Monaco,
+    Lucida Console,
+    Liberation Mono,
+    DejaVu Sans Mono,
+    Bitstream Vera Sans Mono,
+    Courier New,
+    monospace;
+}
+
 .header_icons {
   display: flex;
   justify-content: flex-end;
@@ -29,13 +42,30 @@
   white-space: nowrap;
   width: 100%;
   justify-content: center;
-  a {
-    color: #f9f9f9;
-    text-decoration: none;
-    margin: 1rem 3rem;
-  }
+  
 }
+.nav_link {
+  color: #fff;
+  text-decoration: none;
+  padding: 1rem 3rem;
 
+  &.active {
+    background-color: #000;
+    // font-weight: bolder;
+    // border: 3px solid #f9f9f9;
+    border-bottom: none;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    &:hover {
+      font-weight: normal;
+    }
+  }
+  &:hover {
+    // background-color: #2D313F;
+    font-weight: bolder;
+  }
+  transition: 100ms;
+}
 .footer {
   width: 100%;
   height: 100px;
