@@ -1,14 +1,15 @@
 
 import styles from '../styles/Home.module.css';
 
-export default function HomePage() {
+
+export default function AboutMePage() {
   return (
     <div className={styles.container}>
 
 
       <main>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">index.js!</a>
+          Welcome to <a href="https://nextjs.org">about.js!</a>
         </h1>
 
         <p className={styles.description}>
