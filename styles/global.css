@@ -22,11 +22,10 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+.link {
+  color: #98FF98;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+* {
+  box-sizing: border-box;
 }

@@ -21,7 +21,7 @@ export default function Header(props) {
       <div className={styles.nav}>
         <NavLink href="/">Home</NavLink>
         <NavLink href="/projects">Projects</NavLink>
-        <NavLink href="/about">About Me</NavLink>
+        <NavLink href="/about">About</NavLink>
         <NavLink href="/contact">Contact me</NavLink>
       </div>
     </div>
